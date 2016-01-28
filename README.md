@@ -8,7 +8,7 @@ _Under active development. Not yet released for widespread use._
 
 The AUTHORS Certificate is specially designed for:
 
-1. open-source software projects
+1. [open-source][OSI] software projects
 
 2. developed using pull requests, say on [Bitbucket][Bitbucket],
    [GitHub][GitHub], or [GitLab][GitLab]
@@ -20,6 +20,8 @@ The AUTHORS Certificate is specially designed for:
 [GitHub]: https://github.com
 
 [GitLab]: https://gitlab.org
+
+[OSI]: https://opensource.org
 
 To use The AUTHORS Certificate:
 
