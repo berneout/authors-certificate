@@ -1,6 +1,6 @@
 # The AUTHORS Certificate
 
-A practical approach to code provenance for the GitHub-plus-npm set.
+Practical provenance for the GitHub-and-npm set
 
 _Under active development. Not yet released for widespread use._
 
