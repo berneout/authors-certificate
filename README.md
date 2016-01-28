@@ -86,7 +86,7 @@ You may want to read [section 11 of kernel's guide][SubmittingPatches],
 
 [kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
 
-The AUTHORS Certificate is useful in three ways:
+The AUTHORS Certificate is useful in four ways:
 
 1. _Helping Folks Take Care of Each Other_. "Provenance" is the fancy legal
    term for "where does this software come from, and do the folks giving
@@ -106,19 +106,21 @@ The AUTHORS Certificate is useful in three ways:
    good records on that kind of thing is the essence of the Developer
    Certificate of Origin.
 
-3. _Conventions_. But the Developer Certificate of Origin is written
-   for the kernel's development style and tooling. Unlike kernel code,
-   npm package code is often license-comment-free, with a separate
-   `LICENSE` file and `package.json` metadata. Since the Developer
-   Certificate of Origin speaks in terms of licenses in files, it's not
-   a match. Moreover, Git's workflow is [different][Holman], placing
-   a great deal more development process metadata in long Git commit
-   messages, rather than merging commits as first proposed, with
-   occasional commit message links to external resources, like issues
-   and pull requests. The AUTHORS Certificate accepts that contributors
-   will make lightweight commits and rely on Git-external services,
-   placing the needed licensing data in a Git-tracked file rather than
-   Git history itself.
+3. _Conventions_. The Developer Certificate of Origin is written
+   for kernel development style and tooling. Kernel-style workflow is
+   [different than "GitHub flow"][Holman], putting a great deal more
+   development process metadata in long Git commit messages. Rather than
+   merge commits more or less as they're first proposed, kernel-style
+   hackers write development process metadata right into Git history
+   itself.
+
+4. _Inbound=Outbound_. Both kernel developers and npm package developers
+   expect that contributors will license their work on the same license
+   as the rest of the project. The Developer's Certificate of Origin
+   makes this explicit, but also expects per-file license comment
+   headers, which aren't the norm on npm. The AUTHORS Certificate also
+   makes licensing expectations explicit, without requiring license
+   information in every file.
 
 [DCO]: http://developercertificate.org/
 
