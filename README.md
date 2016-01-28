@@ -88,13 +88,16 @@ You may want to read [section 11 of kernel's guide][SubmittingPatches],
 
 The AUTHORS Certificate is useful in three ways:
 
-1. _Helping people do the right thing_. "Provenance" is the fancy legal
+1. _Helping Folks Take Care of Each Other_. "Provenance" is the fancy legal
    term for "where does this software come from, and do the folks giving
    it away actually have the right to do that?" Provenance has been
    largely ignored outside "enterprisey" foundation projects with form
    contributor license agreements or copyright assignments. With very
    rare exception, [standard open-source licenses don't provide any
-   guarantees][Rosen].
+   guarantees][Rosen]. That means it's up to contributors to [do their
+   homework on concepts like "work made for hire"][WMFH] and practice a
+   bit of license hygiene to make sure they aren't creating IP traps for
+   folks using their software.
 
 2. _Recordkeeping_. Open-source licensing is about showing users that
    risk to them in using software found online is low Licenses play a
@@ -121,6 +124,8 @@ The AUTHORS Certificate is useful in three ways:
 [Holman]: http://zachholman.com/posts/git-commit-history/
 
 [Rosen]: http://www.rosenlaw.com/html/GL14.pdf
+
+[WMFH]: http://worksmadeforhire.com/
 
 ## Inspiration
 
