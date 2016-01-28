@@ -41,7 +41,7 @@ To use The AUTHORS Certificate:
    If you use copyright notices in code comments or an Apache-style
    `NOTICE` file, do the same there.
 
-   Make sure you use the right SPDX expression in the [`license`
+   Make sure you use the right [SPDX expression][SPDX] in the [`license`
    property of your `package.json` file][license-property]. `MIT`,
    `BSD-2-Clause`, and `Apache-2.0` (exact strings) are valid
    expressions for popular license terms on npm.
@@ -59,6 +59,8 @@ To use The AUTHORS Certificate:
 
 npm will [automatically populate][default-values] the `contributors`
 metadata for your package using (non-comment) lines in `AUTHORS`.
+
+[SPDX]: https://spdx.org/licenses/
 
 [default-values]: https://docs.npmjs.com/files/package.json#default-values
 
