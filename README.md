@@ -113,7 +113,7 @@ The AUTHORS Certificate uses [reviewers editions][reved].
 [license-property]: https://docs.npmjs.com/files/package.json#license
 [npm]: https://www.npmjs.com
 [OSI]: https://opensource.org
-[reved]: https://github.com/kemitchell/reviewers-edition-parse.js
+[reved]: https://www.npmjs.com/packages/reviewers-edition-parse
 [Rosen]: http://www.rosenlaw.com/html/GL14.pdf
 [SCO]: https://en.wikipedia.org/wiki/SCO/Linux_controversies
 [SPDX]: https://spdx.org/licenses/
