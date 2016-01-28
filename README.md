@@ -52,7 +52,7 @@ To use The AUTHORS Certificate:
    `AUTHORS` and send pull requests adding their information.
 
 6. Before merging a pull request from a new contributor, ask them to
-   read the `AUTHORS` file and push a commit adding their own
+   read the `AUTHORS` file and send a pull request adding their own
    information to the end of the file. You can bring it in as the
    last commit in their branch. Don't forget to thank them for their
    contribution!
