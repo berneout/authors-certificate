@@ -107,20 +107,18 @@ The AUTHORS Certificate is useful in four ways:
    Certificate of Origin.
 
 3. _Conventions_. The Developer Certificate of Origin is written
-   for kernel development style and tooling. Kernel-style workflow is
-   [different than "GitHub flow"][Holman], putting a great deal more
-   development process metadata in long Git commit messages. Rather than
-   merge commits more or less as they're first proposed, kernel-style
-   hackers write development process metadata right into Git history
-   itself.
+   for kernel-style development flow, which is [different from "GitHub
+   flow"][Holman]. Kernel development puts rich development process
+   metadata in long Git commit messages, and patches are rarely
+   committed to history without changes by reviewing maintainers.
 
 4. _Inbound=Outbound_. Both kernel developers and npm package developers
-   expect that contributors will license their work on the same license
-   as the rest of the project. The Developer Certificate of Origin
-   makes this explicit, but also expects per-file license comment
-   headers, which aren't the norm on npm. The AUTHORS Certificate also
-   makes licensing expectations explicit, without requiring license
-   information in every file.
+   expect contributors to license their work on the same terms as the
+   rest of the project. The Developer Certificate of Origin makes this
+   explicit, but also expects per-file license comment headers, which
+   aren't the norm on npm. The AUTHORS Certificate also makes licensing
+   expectations explicit, but works fine with a package `LICENSE` file
+   and metadata in `package.json`.
 
 [DCO]: http://developercertificate.org/
 
