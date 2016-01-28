@@ -116,7 +116,7 @@ The AUTHORS Certificate is useful in four ways:
 
 4. _Inbound=Outbound_. Both kernel developers and npm package developers
    expect that contributors will license their work on the same license
-   as the rest of the project. The Developer's Certificate of Origin
+   as the rest of the project. The Developer Certificate of Origin
    makes this explicit, but also expects per-file license comment
    headers, which aren't the norm on npm. The AUTHORS Certificate also
    makes licensing expectations explicit, without requiring license
