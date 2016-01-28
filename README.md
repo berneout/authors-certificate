@@ -120,6 +120,9 @@ The AUTHORS Certificate is useful in four ways:
    expectations explicit, but works fine with a package `LICENSE` file
    and metadata in `package.json`.
 
+Overall, you could think of The AUTHORS Certificate as a "port" of The
+Developer Certificate of Origin to the prevailing npm development style.
+
 [DCO]: http://developercertificate.org/
 
 [Holman]: http://zachholman.com/posts/git-commit-history/
