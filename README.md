@@ -6,7 +6,7 @@ _Under active development. Not yet released for widespread use._
 
 ## Use Case
 
-The AUTHORS Certificate is specially designed for:
+[The AUTHORS Certificate][text] is specially designed for:
 
 1. [open-source][OSI] software projects
 
@@ -23,9 +23,11 @@ The AUTHORS Certificate is specially designed for:
 
 [OSI]: https://opensource.org
 
+[text]: https://github.com/berneout/authors-certificate/blob/master/AUTHORS
+
 To use The AUTHORS Certificate:
 
-1. Read it. Seriously. It's short. And in English.
+1. [Read it.][text] Seriously. It's short. And in English.
 
 2. Copy the blank `AUTHORS` file from this repository to your project.
    The file contains only comment lines to start.
