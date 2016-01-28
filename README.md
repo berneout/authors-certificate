@@ -25,11 +25,12 @@ See also:
 
 [npm]: https://docs.npmjs.com/files/package.json#default-values
 
-[The peoplestring-parse package][parse], which parses `AUTHORS` file
-lines.
+[The peoplestring-parse package][parse], which parses `AUTHORS`-style
+strings with added work-made-for-hire information.
 
 [parse]: https://www.npmjs.com/package/peoplestring-parse
 
-[A pull request to npm's `package.json` normalization routine][PR]
+[A pull request to npm's `package.json` normalization routine][PR] to
+use peoplestring-parse and friends
 
 [PR]: https://github.com/npm/normalize-package-data/pull/72
