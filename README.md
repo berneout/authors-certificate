@@ -4,6 +4,8 @@ A practical approach to code provenance for the GitHub-plus-npm set.
 
 _Under active development. Not yet released for widespread use._
 
+## Inspiration
+
 Inspired by [The Developer Certificate of Origin][DCO] adopted by
 Linux kernel developers in the throes of the of the infamous [SCO
 suits][SCO].
@@ -34,3 +36,9 @@ strings with added work-made-for-hire information.
 use peoplestring-parse and friends
 
 [PR]: https://github.com/npm/normalize-package-data/pull/72
+
+## Versioning
+
+The AUTHORS Certificate uses [reviewers editions][reved].
+
+[reved]: https://github.com/kemitchell/reviewers-edition-parse.js
