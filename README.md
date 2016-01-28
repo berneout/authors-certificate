@@ -84,7 +84,7 @@ You may want to read [section 11 of kernel's guide][SubmittingPatches],
 
 [SCO]: https://en.wikipedia.org/wiki/SCO/Linux_controversies
 
-[kenel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
+[kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
 
 The AUTHORS Certificate is useful in three ways:
 
