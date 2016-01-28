@@ -70,7 +70,7 @@ metadata for your package using (non-comment) lines in `AUTHORS`.
 
 ## Background for Developers
 
-The AUTHORS Certificate is heavily inspired by [The Developer's
+The AUTHORS Certificate is heavily inspired by [The Developer
 Certificate of Origin][DCO] adopted in Linux kernel development partly
 in response to the infamous [SCO Unix copyright lawsuits][SCO].
 
@@ -100,12 +100,12 @@ The AUTHORS Certificate is useful in three ways:
    risk to them in using software found online is low Licenses play a
    part, but so does information about who contributed to a contact, and
    how to contact them. That record keeping value is the essence of the
-   Developer's Certificate of Origin.
+   Developer Certificate of Origin.
 
-3. _Conventions_. But the Developer's Certificate of Origin is written
+3. _Conventions_. But the Developer Certificate of Origin is written
    for the kernel's development style and tooling. Unlike kernel code,
    npm package code is often license-comment-free, with a separate
-   `LICENSE` file and `package.json` metadata. Since the Developer's
+   `LICENSE` file and `package.json` metadata. Since the Developer
    Certificate of Origin speaks in terms of licenses in files, it's not
    a match. Moreover, Git's workflow is [different][Holman], placing
    a great deal more development process metadata in long Git commit
