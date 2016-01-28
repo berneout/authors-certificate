@@ -100,10 +100,11 @@ The AUTHORS Certificate is useful in three ways:
    folks using their software.
 
 2. _Recordkeeping_. Open-source licensing is about showing users that
-   risk to them in using software found online is low Licenses play a
-   part, but so does information about who contributed to a contact, and
-   how to contact them. That record keeping value is the essence of the
-   Developer Certificate of Origin.
+   risk to them in using software found online is low. Licenses play a
+   part, but so does information about who contributed to a project and
+   where to get clarification or reassurance if you need it. Keeping
+   good records on that kind of thing is the essence of the Developer
+   Certificate of Origin.
 
 3. _Conventions_. But the Developer Certificate of Origin is written
    for the kernel's development style and tooling. Unlike kernel code,
