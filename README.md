@@ -4,8 +4,6 @@ Practical provenance for the GitHub-and-npm set
 
 _Under active development. Not yet released for widespread use._
 
-## Use
-
 [The AUTHORS Certificate][text] is specially designed for:
 
 1. [open-source][OSI] software projects
@@ -24,6 +22,8 @@ _Under active development. Not yet released for widespread use._
 [OSI]: https://opensource.org
 
 [text]: https://github.com/berneout/authors-certificate/blob/master/AUTHORS
+
+## Use
 
 To use The AUTHORS Certificate:
 
