@@ -10,9 +10,16 @@ The AUTHORS Certificate is specially designed for:
 
 1. open-source software projects
 
-2. developed using pull requests, say on Bitbucket, GitHub, or GitLab
+2. developed using pull requests, say on [Bitbucket][Bitbucket],
+   [GitHub][GitHub], or [GitLab][GitLab]
 
 3. published as [npm][npm] packages
+
+[Bitbucket]: https://bitbucket.com
+
+[GitHub]: https://github.com
+
+[GitLab]: https://gitlab.org
 
 To use The AUTHORS Certificate:
 
