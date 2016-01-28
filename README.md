@@ -57,20 +57,57 @@ metadata for your package using (non-comment) lines in `AUTHORS`.
 
 ## Background for Developers
 
-The AUTHORS Certificate is heavily inspired by [The Developer
-Certificate of Origin][DCO] adopted by Linux kernel developers in the
-throes of the of the infamous [SCO suits][SCO].
+The AUTHORS Certificate is heavily inspired by [The Developer's
+Certificate of Origin][DCO] adopted in Linux kernel development partly
+in response to the infamous [SCO Unix copyright lawsuits][SCO].
 
-It's useful in three ways:
+You may want to read [section 11 of kernel's guide][SubmittingPatches],
+[Linus' original proposal][DCO-proposal] for DCO 1.0, and
+[kernel trap][kernel trap] on the rationale for adding #4 in DCO 1.1.
 
-1. _Helping people do the right thing_. "Provenance" is the fancy word
-   for "where does this software come from, and who has copyright in it?"
+[DCO-proposal]: https://lkml.org/lkml/2004/5/23/10
 
-2. _Recordkeeping_.
+[SubmittingPatches]: https://www.kernel.org/doc/Documentation/SubmittingPatches
+
+[SCO]: https://en.wikipedia.org/wiki/SCO/Linux_controversies
+
+[kenel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
+
+The AUTHORS Certificate is useful in three ways:
+
+1. _Helping people do the right thing_. "Provenance" is the fancy legal
+   term for "where does this software come from, and do the folks giving
+   it away actually have the right to do that?" Provenance has been
+   largely ignored outside "enterprisey" foundation projects with form
+   contributor license agreements or copyright assignments. With very
+   rare exception, [standard open-source licenses don't provide any
+   guarantees][Rosen].
+
+2. _Recordkeeping_. Open-source licensing is about showing users that
+   risk to them in using software found online is low Licenses play a
+   part, but so does information about who contributed to a contact, and
+   how to contact them. That record keeping value is the essence of the
+   Developer's Certificate of Origin.
+
+3. _Conventions_. But the Developer's Certificate of Origin is written
+   for the kernel's development style and tooling. Unlike kernel code,
+   npm package code is often license-comment-free, with a separate
+   `LICENSE` file and `package.json` metadata. Since the Developer's
+   Certificate of Origin speaks in terms of licenses in files, it's not
+   a match. Moreover, Git's workflow is [different][Holman], placing
+   a great deal more development process metadata in long Git commit
+   messages, rather than merging commits as first proposed, with
+   occasional commit message links to external resources, like issues
+   and pull requests. The AUTHORS Certificate accepts that contributors
+   will make lightweight commits and rely on Git-external services,
+   placing the needed licensing data in a Git-tracked file rather than
+   Git history itself.
 
 [DCO]: http://developercertificate.org/
 
-[SCO]: https://en.wikipedia.org/wiki/SCO/Linux_controversies
+[Holman]: http://zachholman.com/posts/git-commit-history/
+
+[Rose]: http://www.rosenlaw.com/html/GL14.pdf
 
 ## Inspiration
 
