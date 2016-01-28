@@ -4,7 +4,7 @@ Practical provenance for the GitHub-and-npm set
 
 _Under active development. Not yet released for widespread use._
 
-## Use Case
+## Use
 
 [The AUTHORS Certificate][text] is specially designed for:
 
@@ -68,7 +68,7 @@ metadata for your package using (non-comment) lines in `AUTHORS`.
 
 [npm]: https://www.npmjs.com
 
-## Background for Developers
+## Background
 
 The AUTHORS Certificate is heavily inspired by [The Developer
 Certificate of Origin][DCO] adopted in Linux kernel development partly
