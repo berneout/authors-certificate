@@ -120,7 +120,7 @@ The AUTHORS Certificate is useful in three ways:
 
 [Holman]: http://zachholman.com/posts/git-commit-history/
 
-[Rose]: http://www.rosenlaw.com/html/GL14.pdf
+[Rosen]: http://www.rosenlaw.com/html/GL14.pdf
 
 ## Inspiration
 
