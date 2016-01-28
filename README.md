@@ -13,16 +13,6 @@ _Under active development. Not yet released for widespread use._
 
 3. published as [npm][npm] packages
 
-[Bitbucket]: https://bitbucket.com
-
-[GitHub]: https://github.com
-
-[GitLab]: https://gitlab.org
-
-[OSI]: https://opensource.org
-
-[text]: https://github.com/berneout/authors-certificate/blob/master/AUTHORS
-
 ## Use
 
 To use The AUTHORS Certificate:
@@ -60,14 +50,6 @@ To use The AUTHORS Certificate:
 npm will [automatically populate][default-values] the `contributors`
 metadata for your package using (non-comment) lines in `AUTHORS`.
 
-[SPDX]: https://spdx.org/licenses/
-
-[default-values]: https://docs.npmjs.com/files/package.json#default-values
-
-[license-property]: https://docs.npmjs.com/files/package.json#license
-
-[npm]: https://www.npmjs.com
-
 ## Background
 
 The AUTHORS Certificate is heavily inspired by [The Developer
@@ -77,14 +59,6 @@ in response to the infamous [SCO Unix copyright lawsuits][SCO].
 You may want to read [section 11 of kernel's guide][SubmittingPatches],
 [Linus' original proposal][DCO-proposal] for DCO 1.0, and
 [kernel trap][kernel trap] on the rationale for new language in DCO 1.1.
-
-[DCO-proposal]: https://lkml.org/lkml/2004/5/23/10
-
-[SubmittingPatches]: https://www.kernel.org/doc/Documentation/SubmittingPatches
-
-[SCO]: https://en.wikipedia.org/wiki/SCO/Linux_controversies
-
-[kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
 
 The AUTHORS Certificate is useful in four ways:
 
@@ -123,16 +97,26 @@ The AUTHORS Certificate is useful in four ways:
 Overall, you could think of The AUTHORS Certificate as a "port" of The
 Developer Certificate of Origin to the prevailing npm development style.
 
-[DCO]: http://developercertificate.org/
-
-[Holman]: http://zachholman.com/posts/git-commit-history/
-
-[Rosen]: http://www.rosenlaw.com/html/GL14.pdf
-
-[WMFH]: http://worksmadeforhire.com/
-
 ## Versioning
 
 The AUTHORS Certificate uses [reviewers editions][reved].
 
+<!-- Hyperlinks -->
+[Bitbucket]: https://bitbucket.com
+[DCO]: http://developercertificate.org/
+[DCO-proposal]: https://lkml.org/lkml/2004/5/23/10
+[default-values]: https://docs.npmjs.com/files/package.json#default-values
+[GitHub]: https://github.com
+[GitLab]: https://gitlab.org
+[Holman]: http://zachholman.com/posts/git-commit-history/
+[kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
+[license-property]: https://docs.npmjs.com/files/package.json#license
+[npm]: https://www.npmjs.com
+[OSI]: https://opensource.org
 [reved]: https://github.com/kemitchell/reviewers-edition-parse.js
+[Rosen]: http://www.rosenlaw.com/html/GL14.pdf
+[SCO]: https://en.wikipedia.org/wiki/SCO/Linux_controversies
+[SPDX]: https://spdx.org/licenses/
+[SubmittingPatches]: https://www.kernel.org/doc/Documentation/SubmittingPatches
+[text]: https://github.com/berneout/authors-certificate/blob/master/AUTHORS
+[WMFH]: http://worksmadeforhire.com/
