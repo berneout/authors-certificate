@@ -76,7 +76,7 @@ in response to the infamous [SCO Unix copyright lawsuits][SCO].
 
 You may want to read [section 11 of kernel's guide][SubmittingPatches],
 [Linus' original proposal][DCO-proposal] for DCO 1.0, and
-[kernel trap][kernel trap] on the rationale for adding #4 in DCO 1.1.
+[kernel trap][kernel trap] on the rationale for new language in DCO 1.1.
 
 [DCO-proposal]: https://lkml.org/lkml/2004/5/23/10
 
