@@ -54,7 +54,9 @@ metadata for your package using (non-comment) lines in `AUTHORS`.
 
 The AUTHORS Certificate is heavily inspired by [The Developer
 Certificate of Origin][DCO] adopted in Linux kernel development partly
-in response to the infamous [SCO Unix copyright lawsuits][SCO].
+in response to the infamous [SCO Unix copyright lawsuits][SCO]. You can
+view an [annotated copy of the Developer of Origin][DCO-ann] among this
+project's files.
 
 You may want to read [section 11 of kernel's guide][SubmittingPatches],
 [Linus' original proposal][DCO-proposal] for DCO 1.0, and
@@ -104,6 +106,7 @@ The AUTHORS Certificate uses [reviewers editions][reved].
 <!-- Hyperlinks -->
 [Bitbucket]: https://bitbucket.com
 [DCO]: http://developercertificate.org/
+[DCO-ann]: ./DCO-1.1-Annotated.md
 [DCO-proposal]: https://lkml.org/lkml/2004/5/23/10
 [default-values]: https://docs.npmjs.com/files/package.json#default-values
 [GitHub]: https://github.com
