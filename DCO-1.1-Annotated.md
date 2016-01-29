@@ -14,6 +14,9 @@ The AUTHORS Certificate provides its license in a separate `LICENSE`
 file, and does not require reproduction of its copyright notice or
 license terms with the text of the AUTHORS Certificate itself.
 
+Unlike the DCO license text, the AUTHORS Certificate `LICENSE` includes
+a no-legal-advice warning.
+
 > Developer's Certificate of Origin 1.1
 >
 > By making a contribution to this project, I certify that:
