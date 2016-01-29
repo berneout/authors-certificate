@@ -50,6 +50,26 @@ To use The AUTHORS Certificate:
 npm will [automatically populate][default-values] the `contributors`
 metadata for your package using (non-comment) lines in `AUTHORS`.
 
+## Tools
+
+You can configure your continuous integration server to check `AUTHORS`
+for you with [check-authors-certificate][check] package:
+
+```shellsession
+$ npm install --save-dev check-authors-certificate
+```
+
+Then update your `test` npm script in `package.json`:
+
+```json
+{
+  "scripts": {
+    "test": "run your tests && npm run check-authors",
+    "check-authors": "check-authors-certificate"
+  }
+}
+```
+
 ## Background
 
 The AUTHORS Certificate is heavily inspired by [The Developer
@@ -112,6 +132,7 @@ The AUTHORS Certificate uses [reviewers editions][reved].
 [GitHub]: https://github.com
 [GitLab]: https://gitlab.org
 [Holman]: http://zachholman.com/posts/git-commit-history/
+[check]: https://www.npmjs.com/packages/check-authors-certificate
 [kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
 [license-property]: https://docs.npmjs.com/files/package.json#license
 [npm]: https://www.npmjs.com
