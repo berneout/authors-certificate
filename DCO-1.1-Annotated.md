@@ -36,7 +36,7 @@ discussing a patch.
 Unlike the DCO, the AUTHORS Certificate requires contributions be
 _entirely_ original work of the submitting contributor. If a pull
 request comes in with commits from multiple authors, all authors should
-be called on to push separate commit appending their info to AUTHORS.
+be called on to push new commits appending their info to AUTHORS.
 
 As a practical matter, "found" code is highly unlikely to have rigorous
 provenance information. Writing contributions oneself is the cleanest,
@@ -50,7 +50,7 @@ consider whether they may not have such rights for their own work. The
 AUTHORS Certificate addresses more directly by requesting different
 information be added to AUTHORS if the developer's practical situation
 includes facts that tend to show work made for hire might be an issue.
-It requires that authors certify a legal conclusions only when they
+It requires that authors certify a legal conclusion only when they
 claim that work made for hire is not an issue. When developers list a
 work-for entity in AUTHORS, they merely certify the facts that they
 have a relationship about intellectual property and have received
@@ -67,7 +67,7 @@ Again, the AUTHORS Certificate requires certification that contributions
 are original work.
 
 This reflects a somewhat more basic difference between Kernel Flow
-and GitHub Flow. DCO is partially concerned about code provenance for
+and GitHub Flow. DCO is partially concerned with code provenance for
 code that comes in from outside the kernel project, but also mightily
 concerned with how that code then bounces around among kernel subsystem
 and other maintainers, gathering sign-offs until it is eventually merged
@@ -114,7 +114,7 @@ Again, the AUTHORS Certificate lacks any analog to this language, due to
 
 This language was added to DCO version 1.1 to address data privacy
 regulation, especially, if Kernel Trap is to be believed, in Alan Cox'
-native England.
+native Britain.
 
 Point of 5 of the AUTHORS Certificate is analogous, but does not
 reference sign-off, a kernel-specific process. Point 5 also adds a
