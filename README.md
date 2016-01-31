@@ -19,12 +19,12 @@ To use The AUTHORS Certificate:
 
 1. [Read it.][text] Seriously. It's short. And in English.
 
-2. Copy the blank `AUTHORS` file from this repository to your project.
-   The file contains only comment lines to start.
+2. Copy the blank [`AUTHORS` file][AUTHORS] from this repository to
+   your project. The file contains only comment lines to start.
 
-3. Copy `.gitattributes` to your project. This file configures
-   command-line Git to use an alternate merging strategy to avoid
-   conflicts between pull requests. Unfortunately, [GitHub's merge
+3. Copy [`.gitattributes`][gitattributes] to your project. This file
+   configures command-line Git to use an alternate merging strategy to
+   avoid conflicts between pull requests. Unfortunately, [GitHub's merge
    button does not support `merge=union` attributes][no-merge-union]. If
    you'd like that feature added, [let GitHub know][contact-github].
 
@@ -130,6 +130,7 @@ Developer Certificate of Origin to the prevailing npm development style.
 The AUTHORS Certificate uses [reviewers editions][reved].
 
 <!-- Hyperlinks -->
+[AUTHORS]: ./AUTHORS
 [Bitbucket]: https://bitbucket.com
 [DCO]: http://developercertificate.org/
 [DCO-ann]: ./DCO-1.1-Annotated.md
@@ -140,6 +141,7 @@ The AUTHORS Certificate uses [reviewers editions][reved].
 [Holman]: http://zachholman.com/posts/git-commit-history/
 [check]: https://www.npmjs.com/packages/check-authors-certificate
 [contact-github]: https://github.com/contact
+[gitattributes]: ./.gitattributes
 [kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
 [license-property]: https://docs.npmjs.com/files/package.json#license
 [no-merge-union]: https://github.com/isaacs/github/issues/487
