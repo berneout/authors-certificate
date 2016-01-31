@@ -59,7 +59,7 @@ metadata for your package using (non-comment) lines in `AUTHORS`.
 ## Tools
 
 You can configure your continuous integration server to check `AUTHORS`
-for you with [check-authors-certificate][check] package:
+for you with [check-authors-certificate][check]:
 
 ```shellsession
 $ npm install --save-dev check-authors-certificate
