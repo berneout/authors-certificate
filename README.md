@@ -22,7 +22,13 @@ To use The AUTHORS Certificate:
 2. Copy the blank `AUTHORS` file from this repository to your project.
    The file contains only comment lines to start.
 
-3. If you use a license, like an MIT- or a BSD-style license, that
+3. Copy `.gitattributes` to your project. This file configures
+   command-line Git to use an alternate merging strategy to avoid
+   conflicts between pull requests. Unfortunately, [GitHub's merge
+   button does not support `merge=union` attributes][no-merge-union]. If
+   you'd like that feature added, [let GitHub know][contact-github].
+
+4. If you use a license, like an MIT- or a BSD-style license, that
    includes a copyright notice at the top, change the notice in your
    `LICENSE` file to something like:
 
@@ -36,12 +42,12 @@ To use The AUTHORS Certificate:
    `BSD-2-Clause`, and `Apache-2.0` (exact strings) are valid
    expressions for popular license terms on npm.
 
-4. Add your own name to the end of `AUTHORS`.
+5. Add your own name to the end of `AUTHORS`.
 
-5. If you have any `contributors` in `package.json`, ask them to read
+6. If you have any `contributors` in `package.json`, ask them to read
    `AUTHORS` and send pull requests adding their information.
 
-6. Before merging a pull request from a new contributor, ask them to
+7. Before merging a pull request from a new contributor, ask them to
    read the `AUTHORS` file and push a commit adding their own
    information to the end of the file. You can bring it in as the
    last commit in their branch. Don't forget to thank them for their
@@ -133,8 +139,10 @@ The AUTHORS Certificate uses [reviewers editions][reved].
 [GitLab]: https://gitlab.org
 [Holman]: http://zachholman.com/posts/git-commit-history/
 [check]: https://www.npmjs.com/packages/check-authors-certificate
+[contact-github]: https://github.com/contact
 [kernel trap]: https://web.archive.org/web/20120409135119/http://kerneltrap.org/node/5277
 [license-property]: https://docs.npmjs.com/files/package.json#license
+[no-merge-union]: https://github.com/isaacs/github/issues/487
 [npm]: https://www.npmjs.com
 [OSI]: https://opensource.org
 [reved]: https://www.npmjs.com/packages/reviewers-edition-parse
