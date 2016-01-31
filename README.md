@@ -1,6 +1,6 @@
 # The AUTHORS Certificate
 
-Practical provenance for the GitHub-and-npm set
+The electric toothbrush of open-source hygiene
 
 _Under active development. Not yet released for widespread use._
 
